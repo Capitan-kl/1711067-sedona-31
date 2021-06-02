@@ -1,0 +1,297 @@
+:root {
+  --basic-black: #000000;
+  --basic-black-2: #333333;
+  --basic-white-2: #F2F2F2;
+  --basic-neutral: #666666;
+  --basic-extra-light: #81B3D2;
+  --basic-white: #ffffff;
+  --basic-grey: #EEEEEE;
+
+  --special: #766357;
+  --special-2: #CACACA;
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-position: top center;
+  background-repeat: no-repeat;
+  cursor: auto;
+}
+
+a {
+  text-decoration: none;
+  background-position: top center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  cursor: default;
+}
+
+.caption {
+  text-align: center;
+  line-height: 26px;
+  cursor: default;
+}
+
+.content h3 {
+  text-align: center;
+  font-size: 21px;
+  cursor: default;
+  }
+
+.container {
+  text-align: center;
+}
+
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: var(--basic-black-2);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: var(--basic-white);
+}
+
+.reason-list {
+  list-style: none;
+  cursor: default;
+}
+
+.reason-1 {
+  text-align: center;
+  color: var(--basic-white);
+  background-color: var(--basic-extra-light);
+}
+
+.reason-1 h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.advice {
+  text-align: center;
+  color: var(--basic-black-2);
+}
+
+.advice h3 {
+  font-size: 21px;
+  line-height: 21px;
+  color:var(--basic-black);
+}
+
+.reason-2 {
+  text-align: center;
+  color: var(--basic-black-2);
+  background-color: var(--basic-grey);
+  cursor: default;
+}
+
+.reason-2 h3 {
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-black);
+}
+
+.appointment {
+  list-style: none;
+  text-align: center;
+  cursor: default;
+}
+
+.popup {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  background-position: 0 0;
+  background-repeat: repeat;
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+}
+
+.button-popup{
+  font: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  font-weight: bold;
+  background-color: var(--basic-extra-light);
+  background-position: 0 0;
+  background-repeat: repeat;
+  border: none;
+}
+
+.button-popup:active {
+  background-color:#5496BD;
+  opacity: 30%;
+}
+
+.button-popup:hover {
+  background-color:#669EC0
+}
+
+.appointment-name,
+.appointment-date
+{
+  background-color: var(--basic-white-2);
+}
+
+.appointment-name,
+.appointment-date:focus{
+  background-color: var(--basic-white);
+  border: 2px solid #E5E5E5;
+  box-sizing: border-box;
+}
+
+.appointment-name,
+.appointment-date:hover{
+  background-color: #EBEBEB
+}
+
+.calendar {
+  color:#A9A9A9
+}
+.calendar:hover {
+  color:var(--basic-black);
+}
+.calendar:active {
+  color:#81B3D2
+}
+
+.plus,
+.minus {
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
+  border: none;
+  cursor: default;
+  color: #A9A9A9
+}
+
+.minus:hover {
+  color:var(--basic-black);
+}
+.minus:active {
+  color:#81B3D2
+}
+.plus:hover {
+ color:var(--basic-black);
+}
+.plus:active {
+  color:#81B3D2
+}
+
+.appointment h2 {
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: bold;
+  color: var(--basic-black);
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  background-color: var(--special);
+  border: none;
+  cursor: default;
+}
+
+.button:hover {
+  background-color: #604E43;
+}
+
+.button:active {
+  background-color: #503E33;
+  opacity: 30%;
+}
+
+.contacts h2{
+  color: inherit;
+  cursor: default;
+}
+
+.main-footer {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  background-repeat: repeat;
+  text-align: center;
+}
+
+.main-footer h3 {
+  cursor: default;
+}
+
+.footer-social ul;{
+  list-style: none;
+}
+
+.social-button {
+  background-color: var(--basic-extra-light);
+  color: inherit;
+}
+
+.social-button:hover {
+  background-color:#669EC0
+}
+.social-button:active {
+  background-color:#5496BD;
+  opacity: 30%;
+}
+
+.main-footer h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.footer-phone {
+  color: inherit;
+}
+
+.footer-button {
+  color: var(--basic-black);
+}
+
+.footer-button:hover {
+color: var(--basic-extra-light);
+}
+
+.footer-button:active {
+ color: #BDBBBC
+  }
+
+

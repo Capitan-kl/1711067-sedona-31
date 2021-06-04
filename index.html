@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="normalize.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
@@ -27,10 +28,9 @@
        </nav>
     </header>
 
-    <main class="container">
-      <figure>
+    <main>
+      <figure class="container">
         <a href="#">
-             <img src="img/welcome.jpg" width="1200px" height="509px" alt="Каньон">
              <img src="img/shape1.svg" width="187,74px" height="44,75px" alt="Welcome">
              <img src="img/shape2.svg" width="255,95px" height="28,8px" alt="to the gorgeous">
              <img src="img/shape3.svg" width="456,65px" height="213,03px" alt="Sedona Becouse the grand Canyon sucks!">
@@ -74,8 +74,7 @@
                     <p>-#2-</p>
                     <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           <figure>
-               <a href="#">
-               <img src="img/image1.jpg" width="800px" height="256px" alt="Фото каньона">
+                 <img src="img/image1.jpg" width="800px" height="256px" alt="Фото каньона">
           </figure>
                 </li>
                  <li class="reason-2">
@@ -100,12 +99,12 @@
              <ul class="appointment">
                <li>
                    <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-                   <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-                   <button class="button" type="submit">Поиск ГОСТИНИЦЫ В седоне</button>
+                    <button class="button" type="button">Поиск ГОСТИНИЦЫ В седоне</button>
                </li>
+            <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post"></form>
                <li>
                    <p class="popup">
-                   <label for="appointment-date">Дата Заезда</label>
+                   <label for="appointment-date">Дата Заезда:</label>
                    <input id="appointment-date" type="text" name="date" placeholder="24 Апреля 2017">
                    <svg class="calendar" width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M16.406 3.02498H19.251C20.217 3.02498 21 3.84698 21 4.86198V21.164C21 22.179 20.217 23 19.251 23H1.75C0.784 23 0 22.179 0 21.164V4.86198C0 3.84698 0.784 3.02498 1.75 3.02498H4.593V1.64798C4.593 1.26698 4.887 0.958984 5.25 0.958984C5.612 0.958984 5.906 1.26698 5.906 1.64798V3.02498H9.844V1.64798C9.844 1.26698 10.138 0.958984 10.501 0.958984C10.862 0.958984 11.156 1.26698 11.156 1.64798V3.02498H15.094V1.64798C15.094 1.26698 15.387 0.958984 15.75 0.958984C16.112 0.958984 16.406 1.26698 16.406 1.64798V3.02498ZM19.5646 21.484C19.6466 21.3979 19.691 21.2828 19.688 21.164H19.689V4.86198C19.689 4.60898 19.493 4.40298 19.252 4.40298H16.407V5.78098C16.407 6.16198 16.113 6.46998 15.751 6.46998C15.388 6.46998 15.095 6.16198 15.095 5.78098V4.40298H11.157V5.78098C11.157 6.16198 10.863 6.46998 10.502 6.46998C10.139 6.46998 9.845 6.16198 9.845 5.78098V4.40298H5.907V5.78098C5.907 6.16198 5.613 6.46998 5.251 6.46998C4.888 6.46998 4.594 6.16198 4.594 5.78098V4.40298H1.75C1.50263 4.40953 1.30696 4.61458 1.312 4.86198V21.164C1.30696 21.4114 1.50263 21.6164 1.75 21.623H19.251C19.3698 21.6201 19.4826 21.5701 19.5646 21.484Z" fill="currentColor"/>
@@ -115,7 +114,7 @@
                 </li>
                 <li>
                     <p class="popup">
-                   <label for="appointment-date">Дата Выезда</label>
+                   <label for="appointment-date">Дата Выезда:</label>
                    <input id="appointment-date" type="text" name="date" placeholder="4 Июля 2017">
                    <svg class="calendar" width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M16.406 3.02498H19.251C20.217 3.02498 21 3.84698 21 4.86198V21.164C21 22.179 20.217 23 19.251 23H1.75C0.784 23 0 22.179 0 21.164V4.86198C0 3.84698 0.784 3.02498 1.75 3.02498H4.593V1.64798C4.593 1.26698 4.887 0.958984 5.25 0.958984C5.612 0.958984 5.906 1.26698 5.906 1.64798V3.02498H9.844V1.64798C9.844 1.26698 10.138 0.958984 10.501 0.958984C10.862 0.958984 11.156 1.26698 11.156 1.64798V3.02498H15.094V1.64798C15.094 1.26698 15.387 0.958984 15.75 0.958984C16.112 0.958984 16.406 1.26698 16.406 1.64798V3.02498ZM19.5646 21.484C19.6466 21.3979 19.691 21.2828 19.688 21.164H19.689V4.86198C19.689 4.60898 19.493 4.40298 19.252 4.40298H16.407V5.78098C16.407 6.16198 16.113 6.46998 15.751 6.46998C15.388 6.46998 15.095 6.16198 15.095 5.78098V4.40298H11.157V5.78098C11.157 6.16198 10.863 6.46998 10.502 6.46998C10.139 6.46998 9.845 6.16198 9.845 5.78098V4.40298H5.907V5.78098C5.907 6.16198 5.613 6.46998 5.251 6.46998C4.888 6.46998 4.594 6.16198 4.594 5.78098V4.40298H1.75C1.50263 4.40953 1.30696 4.61458 1.312 4.86198V21.164C1.30696 21.4114 1.50263 21.6164 1.75 21.623H19.251C19.3698 21.6201 19.4826 21.5701 19.5646 21.484Z" fill="currentColor"/>
@@ -124,7 +123,6 @@
                    </p>
                 </li>
                 <li>
-                  <form>
                    <p class="popup">
                    <label for="appointment-name">Взрослые:</label>
                    <input id="appointment-name" type="text" name="name" placeholder="2">
@@ -134,11 +132,9 @@
                     <span class="plus">
                       <button class="plus" type="button">+</button>
                     </span>
-                 </form>
                   </p>
                   </li>
                   <li>
-                 <form>
                    <p class="popup">
                    <label for="appointment-name">Дети:</label>
                    <input id="appointment-name" type="text" name="name" placeholder="0">
@@ -148,13 +144,12 @@
                    <span class="plus">
                      <button class="plus" type="button">+</button>
                    </span>
-                 </form>
                    </p>
                    </li>
                    <li>
                       <button class="button-popup" type="submit">Найти</button>
                    </li>
-                 </form>
+                </form>
               </ul>
          </section>
           <section class="contacts">
@@ -170,7 +165,7 @@
          <h3>#visitSEDONA</h3>
            <a class="footer-phone" href="tel:+7 800 555-86-28">+7 800 555-86-28</a>
          <section class="footer-social">
-           <ul>
+           <ul class="footer-social-list">
              <li>
               <a class="social-button" href="#">Твиттер
                 <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -194,7 +189,7 @@
              </li>
           </ul>
         </section>
-         <p>Website by</p>
+         <p class="footer-site">Website by</p>
            <a class="footer-button" href="https://htmlacademy.ru/intensive/htmlcss">
             <svg width="115" height="34" viewBox="0 0 115 34" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0)">

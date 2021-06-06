@@ -25,31 +25,152 @@ body {
  }
 
 img {
-  max-width: 100%;
-  height: auto;
-  }
+max-width: 100%;
+height: auto;
+}
 
 .caption {
-  text-align: center;
+text-align: center;
+font-size: 21px;
+line-height: 26px;
+}
+
+
+.container-inner-page {
+background-position: 0 0;
+}
+
+.main-filter {
+color:var(--basic-white);
+background-image: url(img/background.jpg);
+background-repeat: repeat;
+}
+
+.filter {
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+color:var(--basic-white);
+}
+
+.breadcrumbs {
+list-style: none;
+}
+
+.breadcrumbs a {
+  color: var(--basic-black);
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  text-decoration: underline;
+}
+
+.breadcrumbs-current {
+  color: var(--basic-dark);
+}
+
+.cost {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.button-hotels {
+  font: inherit;
+  color: var(--basic-white);
+  background-image: url(img/background.jpg);
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+  outline:none;
+}
+
+
+.result h2 {
+  text-align: left;
   font-size: 21px;
   line-height: 26px;
+  font-weight: 700;
+  color:var(--basic-black);
+}
+
+.result h3 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color:var(--basic-black);
+}
+
+.result-list {
+  list-style: none;
+}
+
+.result-search h3 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.result-search-list {
+list-style: none;
+}
+
+.detailed {
+font-weight: 700;
+color:var(--basic-white);
+background-color: var(--basic-extra-light);
+text-decoration: none;
+}
+
+.booking {
+font-weight: 700;
+color:var(--basic-white);
+background-color: var(--special);
+text-decoration: none;
+}
+
+.rating {
+color:#666666;
+background-color:var(--basic-white-2);
+}
+
+.stars {
+color:var(--basic-extra-light);
+}
+
+.result-list a{
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color:var(--basic-black);
+}
+
+.price a{
+  color:var(--basic-extra-light);
+  text-decoration: none;
+
 }
 
 .content h3 {
-  text-align: center;
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: 400;
-  color:var(--basic-black-2);
-  }
+text-align: center;
+font-size: 14px;
+line-height: 26px;
+font-weight: 400;
+color:var(--basic-black-2);
+}
 
-
-  .container {
+.container {
   text-align: center;
   background-image: url(img/welcome.jpg);
   background-repeat: no-repeat;
   background-color:#888888 ;
-  }
+}
 
 
 .main-navigation {
@@ -58,11 +179,11 @@ img {
   font-weight: bold;
   color: var(--basic-black);
   background-color: var(--basic-white);
-  }
+}
 
 .site-navigation  {
-  list-style: none;
-  }
+list-style: none;
+}
 
 .site-navigation a,
 .user-navigation a {
@@ -74,18 +195,17 @@ img {
 .site-navigation a:focus,
 .user-navigation a:hover,
 .user-navigation a:focus {
-  background-color: var(--basic-white);
+background-color: var(--basic-white);
 }
 
 .reason-list {
-  list-style: none;
-  }
+list-style: none;
+}
 
 .reason-1 {
-  text-align: center;
-  color: var(--basic-white);
-  background-color: var(--basic-extra-light);
-
+text-align: center;
+color: var(--basic-white);
+background-color: var(--basic-extra-light);
 }
 
 .reason-1 h3 {
@@ -111,7 +231,7 @@ img {
   text-align: center;
   color: var(--basic-black-2);
   background-color: var(--basic-grey);
- }
+}
 
 .reason-2 h3 {
   font-size: 21px;
@@ -154,7 +274,6 @@ box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
   background-repeat: repeat;
   border: none;
   position: center;
-
 }
 
 .button-popup:active {
@@ -179,13 +298,13 @@ box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
 }
 
 .calendar {
-  color:#A9A9A9;
+color:#A9A9A9;
 }
 .calendar:hover {
-  color:var(--basic-black);
+color:var(--basic-black);
 }
 .calendar:active {
-  color:#81B3D2;
+color:#81B3D2;
 }
 
 .plus,
@@ -222,7 +341,7 @@ box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
 }
 
 .appointment {
-  list-style: none;
+list-style: none;
 }
 
 .button {
@@ -236,7 +355,7 @@ box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
   line-height: 26px;
   background-color: var(--special);
   border: none;
-  }
+}
 
 .button:hover {
   background-color: #604E43;
@@ -266,7 +385,7 @@ box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
 .footer-social-list {
   list-style: none;
   color: inherit;
-  }
+}
 
 .social-button {
   background-color: var(--basic-extra-light);
